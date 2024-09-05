@@ -22,6 +22,16 @@ app.get("/customers", (req: Request, res: Response) => {
       email: "joel.smith@example.com",
       phone: "+0987654321",
     },
+    {
+      name: "Jane Doe",
+      email: "jane.doe@example.com",
+      phone: "+0987054321",
+    },
+    {
+      name: "John Moore",
+      email: "john.moore@example.com",
+      phone: "+0987054321",
+    },
   ];
  
   return res.status(200).json(customers);
